@@ -1,0 +1,7 @@
+{
+  "model": "Logistic Regression",
+  "cv_f1": 0.961,
+  "train_size": 4128,
+  "test_size": 1032,
+  "seed": 42
+}
