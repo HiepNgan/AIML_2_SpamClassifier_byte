@@ -1,0 +1,9 @@
+text,actual,predicted,spam_prob,error_type
+I (Career Tel) have added u as a contact on INDYAROCKS.COM to send FREE SMS. To remove from phonebook - sms NO to  &lt;#&gt;,ham,spam,0.579,false positive (ham -> spam)
+Sorry I missed your call let's talk when you have the time. I'm on 07090201529,spam,ham,0.094,false negative (spam -> ham)
+Glad to see your reply.,ham,spam,0.637,false positive (ham -> spam)
+", ow u dey.i paid 60,400thousad.i told  u would call .",ham,spam,0.525,false positive (ham -> spam)
+Babe: U want me dont u baby! Im nasty and have a thing 4 filthyguys. Fancy a rude time with a sexy bitch. How about we go slo n hard! Txt XXX SLO(4msgs),spam,ham,0.342,false negative (spam -> ham)
+thesmszone.com lets you send free anonymous and masked messages..im sending this message from there..do you see the potential for abuse???,spam,ham,0.444,false negative (spam -> ham)
+dating:i have had two of these. Only started after i sent a text to talk sport radio last week. Any connection do you think or coincidence?,spam,ham,0.116,false negative (spam -> ham)
+"Hi this is Amy, we will be sending you a free phone number in a couple of days, which will give you an access to all the adult parties...",spam,ham,0.049,false negative (spam -> ham)
