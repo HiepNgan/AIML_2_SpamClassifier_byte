@@ -74,16 +74,20 @@ def run_demo(detector, n_per_class=5, seed=7):
     print(f"Đã lưu: {out}")
 
 
+EXIT_WORDS = {"q", "quit", "exit"}
+
+
 def run_interactive(detector):
-    print("Nhập tin nhắn để kiểm tra (Enter trống để thoát).")
+    print("Nhập tin nhắn để kiểm tra (gõ q / exit hoặc Enter trống để thoát).")
     while True:
         try:
             text = input("\n> ").strip()
         except (EOFError, KeyboardInterrupt):
             break
-        if not text:
+        if not text or text.lower() in EXIT_WORDS:
             break
         print_results(detector.predict([text]))
+    print("Tạm biệt!")
 
 
 def main():
